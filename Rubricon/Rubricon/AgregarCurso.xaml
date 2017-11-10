@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Rubricon.AgregarCurso"
+             Title="Agregar Curso">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" BackgroundColor="#503496">
+            <Label Text="Nombre del curso"
+                   TextColor="White"
+                   FontSize="20"
+                   FontAttributes="Bold"
+                 />
+            <Entry
+              Placeholder="Ingrese nombre curso"
+              TextColor="White"
+              PlaceholderColor="White">
+            </Entry>
+
+            <Button
+                Text="Aceptar"
+                x:Name="btnAceptarCurso"
+                Clicked="BtnAceptarCursos_Clicked">
+            </Button>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

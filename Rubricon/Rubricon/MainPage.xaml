@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Rubricon"
+             x:Class="Rubricon.MainPage"
+             Title="Rubricon">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#503496">
+            <Label Text="RUBRICON"
+                   TextColor="White"
+                   FontSize="28"
+                   FontAttributes="Bold"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Button
+                Text="Cursos"
+                x:Name="btnCursos"  
+                Clicked="BtnCursos_Clicked"
+            ></Button>
+            <Button
+                Text="Rúbricas"
+                x:Name="btnRubricas"
+                Clicked="btnRubricas_Clicked"
+                ></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
